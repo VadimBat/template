@@ -14,7 +14,7 @@ import java.io.PrintWriter;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 
-@WebFilter("/*")
+@WebFilter("/time")
 public class TimezoneValidateFilter extends HttpFilter {
     private static final Logger log = LogManager.getLogger(TimezoneValidateFilter.class);
     @Override

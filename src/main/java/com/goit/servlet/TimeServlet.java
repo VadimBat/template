@@ -19,7 +19,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 
-@WebServlet("/*")
+@WebServlet("/time")
 public class TimeServlet extends HttpServlet {
     private static final Logger log = LogManager.getLogger(TimeServlet.class);
     private final TemplateEngine templateEngine;
